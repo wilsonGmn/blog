@@ -95,6 +95,8 @@ hr
 
 /* HEADER */
 
+
+
 header
 {
 	
@@ -104,14 +106,14 @@ header
         margin: 0 auto 20px auto;
 		
 }
-
+/*
 header h1
 {
         margin:35px 0 0 0;
         font-size:55px;
-        color:#333333;
+        color:#99FFCC;
         font-family: 'Baumans', cursive;
-}
+}*/
 
 header p
 {
@@ -304,123 +306,17 @@ nav ul li a:hover
 }
 
 
-/* FOUR COLUMNS */
 
-#four_columns, #text_columns
+
+/*DEMO */
+section h2
 {
-        line-height:25px;
+ 
         font-family: 'Open Sans', sans-serif;
-        clear:both;
-        width:auto;
-        max-width:900px;
-        margin:0 auto;
+        color:#99FFCC;
+      
 }
 
-#four_columns h2, #text_columns h3
-{
-        font-size:20px;
-        border-bottom: 1px solid #D6D0C1;
-        padding: 0 0;
-        margin-bottom: 20px;
-}
-
-#four_columns .img-item
-{
-        float:left;
-        margin-right:25px;
-}
-
-#four_columns .img-item a
-{
-        position:relative;
-        display:block;
-}
-
-.thumb-screen
-{
-        display:block;
-        position:absolute;
-        top:0;
-        left:0;
-        width:100%;
-        height:113px;
-        background: #000 url(img/zoom.png) center center no-repeat;
-        z-index:99;
-        opacity: 0;
-        transition: opacity .5s ease;
-}
-
-.thumb-screen:hover
-{
-        opacity:0.5;
-}
-
-
-/* TWO COLUMNS */
-
-#text_columns article.column1, #text_columns .column2
-{
-        margin: 20px 0;
-        font-size:14px;
-        float:left;
-        width:auto;
-        max-width: 700px;
-}
-
-#text_columns .column2
-{
-        
-}
-
-.row
-{
-        position:relative;
-        margin: 40px 0 0 50px;
-        float:right;
-        width:350px;
-}
-
-.row img
-{
-        float:left;
-}
-
-.row p
-{
-        margin-left: 100px;
-}
-
-.rocket, .clock
-{
-        top:0;
-        left:0;
-        position:absolute;
-        height: 80px;
-}
-
-.rocket:hover
-{
-        opacity:0;
-        transition: opacity 0.4s ease 0.2s;
-        animation-name: stylie-transform-keyframes;
-        animation-duration: 700ms;
-        animation-delay: 0ms;
-        animation-fill-mode: forwards;
-        animation-timing-function: linear;
-        animation-iteration-count: 1;
-        transform-origin: 0 0;
-}
-
-.clock:hover
-{
-        animation-name: stylie-transform2-keyframes;
-        animation-duration: 100ms;
-        animation-delay: 0ms;
-        animation-fill-mode: forwards;
-        animation-timing-function: linear;
-        animation-iteration-count: infinite;
-        transform-origin: 0 0;
-}
 
 
 

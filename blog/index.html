@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- SlidesJS Required (if responsive): Sets the page width to the device width. -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- End SlidesJS Required -->
+<title>DevClan</title>
+<link rel="stylesheet" href="reset.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<link href="lightbox/css/lightbox.css" rel="stylesheet" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans|Baumans' rel='stylesheet' type='text/css'>
+
+<script src="js/modernizr.js"></script>
+<script src="js/respond.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script src="lightbox/js/lightbox.js"></script>
+<script src="js/prefixfree.min.js"></script>
+<script src="js/jquery.slides.min.js"></script>
+
+<!--[if lt IE 9]>
+        <style>
+            header
+        {
+                margin: 0 auto 20px auto;
+        }
+        #four_columns .img-item figure span.thumb-screen
+        {
+                       display:none;
+        }
+    </style>
+<![endif]-->
+
+
+<script>
+
+$(document).ready(function() {
+     // Show or hide the sticky footer button
+     $(window).scroll(function() {
+     if ($(this).scrollTop() > 200) {
+      $('.go-top').fadeIn(200);
+     } else {
+      $('.go-top').fadeOut(200);
+     }
+     });
+
+     // Animate the scroll to top
+     $('.go-top').click(function(event) {
+     event.preventDefault();
+
+     $('html, body').animate({scrollTop: 0}, 300);
+     })
+});
+</script>
+</head>
+
+<body>
+<header>
+    <h1>> DevClan</h1>
+        </header>
+
+
+<section id="spacer">
+       
+           <nav >
+         
+            <ul>
+                <li><a href="javascript:void(0)">Home</a></li>
+            <li><a href="javascript:void(0)">Desarrollo</a></li>
+            <li><a href="javascript:void(0)">Networking</a></li>
+            <li><a href="javascript:void(0)">Servidores</a></li>
+			 <li><a href="javascript:void(0)">How to's</a></li>
+        </ul>
+    </nav>
+	
+	
+    <div class="search">
+        <form action="#">
+            <input type="text" name="sitesearch" value="Busqueda..."/>
+            <input type="submit" name="start_search" class="button" value="Buscar"/>
+        </form>
+    </div>
+</section>
+
+
+
+
+
+
+<footer>
+        <h2 class="hidden">Our footer</h2>
+    <section id="copyright">
+            <h3 class="hidden">Copyright notice</h3>
+        <div class="wrapper">
+                <div class="social">
+                    <a href="javascript:void(0)"><img src="img/Social-Networks-Google-plus-icon.png" alt="google plus" width="40"/></a>
+                <a href="javascript:void(0)"><img src="img/Logos-Twitter-icon.png" alt="tumblr" width="40"/></a>
+                <a href="javascript:void(0)"><img src="img/Logos-Youtube-icon.png" alt="youtube" width="40"/></a>
+                <a href="javascript:void(0)"><img src="img/Social-Networks-facebook-icon.png" alt="bebo" width="40"/></a>
+              
+            </div>
+                &copy; Copyright 2014  >Devclan</a>. Todos los derechos reservados 
+        </div>
+    </section>
+    <section class="wrapper">
+            <h3 class="hidden">Lorem ipsum</h3>
+        <article class="column">
+                <h4>> DevClan</h4>
+            Unterwegs traf es eine Copy. Die Copy warnte das Blindtextchen, da, wo sie herkäme wäre sie zigmal umgeschrieben worden und alles, was von ihrem Ursprung noch übrig wäre, sei das Wort "und" und das Blindtextchen solle umkehren und wieder in sein.
+        </article>
+        <article class="column midlist">
+               
+            <ul>
+                    <li><a href="javascript:void(0)">Home</a></li>
+                <li><a href="javascript:void(0)">Desarrollo</a></li>
+                <li><a href="javascript:void(0)">Networking</a></li>
+				  <li><a href="javascript:void(0)">Servidores</a></li>
+                <li><a href="javascript:void(0)">How to</a></li>
+            </ul>
+        </article>
+        <article class="column rightlist">
+                <h4>Dolor sit amet</h4>
+            <ul>
+                    <li><a href="javascript:void(0)"><img src="img/example-slide-1sml.jpg" width="80" alt="some alt text"/><span>Unterwegs traf es eine Copy. Die Copy warnte.</span></a></li>
+                <li><a href="javascript:void(0)"><img src="img/example-slide-2sml.jpg" width="80" alt="some alt text"/><span>Doch alles Gutzureden konnte es nicht.</span></a></li>
+                <li><a href="javascript:void(0)"><img src="img/example-slide-3sml.jpg" width="80" alt="some alt text"/><span>Und es dann in ihre Agentur schleppten.</span></a></li>
+            
+			</ul>
+			
+        </article>
+    </section>
+    <a href="#" class="go-top">Go Top</a>
+</footer>
+</body>
+</html>

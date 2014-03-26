@@ -11,6 +11,79 @@ background: linear-gradient(to right, rgba(209,236,240,0), rgba(209,236,240,1));
 border-radius:3px;
 }
 
+/* DEMOOOOOOOOOOOOOOOOOOOOOOOOOOOOO */
+#generalbox{
+
+	  width: 900px ;
+	  margin-left: auto ;
+	  margin-right: auto ;
+	  height:auto;
+}
+#content
+{
+
+    
+    
+		float:left;
+        width:600px;
+        height:auto
+   
+
+}
+
+
+#info
+{
+        float:left;
+        width:300px;
+        margin-top:25px; 
+        height:1000px; 
+        background-color:#ABDADB;
+
+
+}
+#info #social 
+{
+     width:300px;
+     height: 80px; 
+     background-color:#CFD44C;
+	 padding-top:20px;
+}
+
+#info #social .item
+{
+	
+
+    float:left;
+	width: 40px;
+	height: 40px;
+	margin:10px;
+}
+
+#info #destacados
+{
+   width:300px;
+   height:500px; 
+   background-color:#4CD487;
+}
+
+#info #destacados h3
+{
+   text-align:center;
+}
+#info #tags
+{
+     width:300px;
+   height:420px; 
+   background-color:#2CA487;
+}
+
+#info #tags h3
+{
+	text-align:center;
+}
+
+/* DEMOOOOOOOOOOOOOOOOOOOOOOOOOOOOO */
 
 
 
@@ -24,7 +97,7 @@ body
         border-top:10px solid #0292A8;
         background:#EDF4F7;
         font-family: 'Open Sans', sans-serif;
-        color:#333333;
+        color:#332333;
 }
 
 input
@@ -358,13 +431,14 @@ nav ul li a:hover
 
 /* TWO COLUMNS */
 
-#text_columns article.column1, #text_columns .column2
+
+#text_columns article.column1, #text_columns .column2 
 {
         margin: 20px 0;
-        font-size:14px;
+        font-size:12px;
         float:left;
         width:auto;
-        max-width: 700px;
+        max-width: 450px;
 }
 
 #text_columns .column2
@@ -677,7 +751,7 @@ footer .wrapper .column h4
         {
                 margin-top: 25px;
         }
-        #text_columns article.column1, #text_columns .column2
+        #text_columns article.column1, #text_columns .column2 
         {
                 float:none;
                 max-width: 500px;

@@ -14,22 +14,26 @@ border-radius:3px;
 /* DEMOOOOOOOOOOOOOOOOOOOOOOOOOOOOO */
 #generalbox{
 
-	  width: 900px ;
+	  width: 980px ;
 	  margin-left: auto ;
 	  margin-right: auto ;
 	  height:auto;
 }
 #content
 {
-
-    
-    
 		float:left;
-        width:600px;
-        height:auto
-   
-
+        width:680px;
+        height:auto;
+		
 }
+#generalbox #content #tema
+{
+	 margin-top:25px; 
+    float:left;
+	width:650px;
+   background-color:#E0E84D;
+}
+
 
 
 #info
@@ -83,6 +87,7 @@ border-radius:3px;
 	text-align:center;
 }
 
+
 /* DEMOOOOOOOOOOOOOOOOOOOOOOOOOOOOO */
 
 
@@ -107,7 +112,7 @@ input
         padding: 7px;
         outline: 0;
         border:0;
-        width:150px;
+        width:190px;
         background: #EDF4F7;
         border-radius:5px;
 }
@@ -173,7 +178,7 @@ header
 	
         position:relative;
         width:auto;
-        max-width:900px;
+        max-width:980px;
         margin: 0 auto 20px auto;
 		
 }
@@ -196,11 +201,11 @@ header p
 
 nav
 {
-color:#EDF4F7;
-float:left;
+		color:#EDF4F7;
+		float:left;
         position:relative;
          left:50%;
-        margin-left:-450px;
+        margin-left:-505px;
         top:35%;
 }
 
@@ -243,7 +248,7 @@ nav ul li a:hover
 #boxcontent
 {
         width:auto;
-        max-width:900px;
+        max-width:980px;
         margin:0 auto;
         padding:70px 0 45px 0;
 }
@@ -373,7 +378,7 @@ nav ul li a:hover
         width:auto;
         position:absolute;
         right:50%;
-        margin-right:-450px;
+        margin-right:-491px;
 }
 
 
@@ -385,7 +390,7 @@ nav ul li a:hover
         font-family: 'Open Sans', sans-serif;
         clear:both;
         width:auto;
-        max-width:900px;
+        max-width:980px;
         margin:0 auto;
 }
 
@@ -438,7 +443,7 @@ nav ul li a:hover
         font-size:12px;
         float:left;
         width:auto;
-        max-width: 450px;
+        max-width: 500px;
 }
 
 #text_columns .column2
@@ -515,7 +520,7 @@ footer .wrapper
         margin: 0 auto;
         padding-top:30px;
         width:auto;
-        max-width:900px;
+        max-width:980px;
         font-size:14px;
 }
 

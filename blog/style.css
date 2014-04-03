@@ -87,7 +87,24 @@ border-radius:3px;
 	text-align:center;
 }
 
+#relacionados{
+   clear:both;
+    margin-top: 100px;
+   background-color: #ABDADB;
+   width:650 px;
+   height:200px
 
+
+}
+
+#comentarios{
+	 clear:both;
+    margin-top: 100px;
+    background-color: #C2DADB;
+    width: 650 px;
+    height: 900px;
+
+}
 /* DEMOOOOOOOOOOOOOOOOOOOOOOOOOOOOO */
 
 

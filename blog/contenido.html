@@ -92,39 +92,41 @@ $(document).ready(function() {
 
 
 <div id="generalbox">
-<section  id="content">
+<section  id="content" style="width:69%;">
 
  <div id="tema">
 		<h2>Lorem ipsum dolor</h2>
-		  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+		  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
 
-		<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
 
-		<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+		Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
 
-		<p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p>
+	In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
 
-		<p>Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+	Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
 
-		<p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.</p>
+Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
 
-		<p>Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
+	Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
 
-		<p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.</p>
+		Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem
 
-		<p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,<
 </div>
 		 
 		 
 				
-			<div class="codebox" style="padding-left:10%;padding-right:10%;padding-top:10%;">
+			<div class="codebox" style="padding-left:10%;padding-right:10%;padding-top:10%; margin-top:10%">
 
 			<h1>Code</h1>
 			<pre class="brush: js;">
 			function helloSyntaxHighlighter()
 			{
-				return "hi!";
+				
 				print "hola mundo";
+				return "hi!";
 
 			}
 			}
@@ -160,39 +162,61 @@ $(document).ready(function() {
 			</div>
 			
 			
-		  <div id="video" style="padding-left:20%;">
+		  <div id="video" style="padding-left:20%;padding-top:10%;">
 				<iframe width="420" height="315" src="//www.youtube.com/embed/lNHVmpy0qgM" frameborder="0" allowfullscreen></iframe>
 		  </div>
 		  
 		  <div id="relacionados">
-					<div>
+					<div id="contendOne">
 					
 					</div>
-					<div>
+					<div   id="contendTwo">
 					
-					</div>
+					</div >
 					
-					<div>
+					<div id="contendThree">
 					
 					</div>
 		  
 		  </div>
-		
+		  <div id="comentarios">
+									
+						<div id="disqus_thread">
+
+						<script type="text/javascript">
+
+						/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+						var disqus_shortname = 'phptest-demo.openshift.local'; // required: replace example with your forum shortname
+						var disqus_url = '{{ site.url }}{{ page.url }}';
+
+						/* * * DON'T EDIT BELOW THIS LINE * * */
+						(function() {
+						var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+						dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+						(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+						})();
+
+						</script>
+
+						<noscript>Please enable JavaScript to view the http://disqus.com/?ref_noscrip...">comments powered by Disqus.</noscript>
+						</div>
+		 </div>
+			  
  </section>  
 <!-- Termina contenido -->
 
-<section  id="info" >
-		 <div id="social">
+<section  id="info" style="width: 30%; border: 1px solid gray;  -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px;">
+		 <div id="social" style="width:auto;">
+			 <img class="item" src="img/Social-Networks-Google-plus-icon.png">
 			 <img class="item" src="img/Logos-Twitter-icon.png">
-			 <img class="item" src="img/Logos-Twitter-icon.png">
-			 <img class="item" src="img/Logos-Twitter-icon.png">
-			 <img class="item" src="img/Logos-Twitter-icon.png">
+			 <img class="item" src="img/Logos-Youtube-icon.png">
+			 <img class="item" src="img/Social-Networks-facebook.png">
 		 </div>
-		 <div  id="destacados">
+		 <div  id="destacados" style="width:auto;">
 			 <h3>Destacados</h3>
 			 
 		 </div>
-		 <div  id="tags">
+		 <div  id="tags" style="width:auto;">
 			  <h3>Tags</h3>
 		 </div>
 
